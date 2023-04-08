@@ -66,7 +66,7 @@ with gr.Blocks(css=customCSS, theme=small_and_beautiful_theme) as demo:
                 delLastBtn = gr.Button("🗑️ 删除最新对话")
                 reduceTokenBtn = gr.Button("♻️ 总结对话")
 
-        with gr.Column(visible=False):
+        with gr.Column(visible=True):
             with gr.Column(min_width=50, scale=1):
                 with gr.Tab(label="ChatGPT"):
                     keyTxt = gr.Textbox(
