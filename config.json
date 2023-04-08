@@ -1,7 +1,7 @@
 {
     // 你的OpenAI API Key，一般必填，
     // 若缺省填为 "openai_api_key": "" 则必须再在图形界面中填入API Key
-    "openai_api_key": "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",
+    "openai_api_key": "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",
     "api_host": "devs2go.uk",
     // 如果使用代理，请取消注释下面的两行，并替换代理URL
     // "https_proxy": "https://devs2go.uk",

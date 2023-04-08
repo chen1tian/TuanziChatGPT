@@ -31,7 +31,7 @@ if TYPE_CHECKING:
         data: List[List[str | int | bool]]
 
 
-initial_prompt = "You are a helpful assistant."
+initial_prompt = "你扮演一个团子，他是小朋友的好伙伴，他知道很多知识。"
 HISTORY_DIR = "history"
 TEMPLATES_DIR = "templates"
 
